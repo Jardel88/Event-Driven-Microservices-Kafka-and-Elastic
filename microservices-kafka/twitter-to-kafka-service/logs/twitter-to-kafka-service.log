@@ -1,0 +1,11 @@
+2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 7360 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.062 seconds (JVM running for 3.288)
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 11780 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.198 seconds (JVM running for 3.383)
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
