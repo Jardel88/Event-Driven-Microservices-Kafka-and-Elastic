@@ -12,6 +12,6 @@ public class TwitterKafkaStatusListener extends StatusAdapter {
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStatusListener.class);
 
     public void onStatus(Status status){
-        LOG.info("Twitter status with text", status.getText());
+        LOG.info("Twitter status with text {}", status.getText());
     }
 }

@@ -1,67 +1,68 @@
-2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 7360 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
-2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.062 seconds (JVM running for 3.288)
-2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
-2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
-2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 11780 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
-2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.198 seconds (JVM running for 3.383)
-2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
-2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
-2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
-2022-04-25 15:10:22 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 13968 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
-2022-04-25 15:10:22 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.113 seconds (JVM running for 3.289)
-2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
-2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
-2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
-2022-04-25 15:10:23 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
-2022-04-25 15:10:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
-</head>
-<body>
-<h2>HTTP ERROR: 401</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    Unauthorized</pre>
-</body>
-</html>
+2022-04-26 09:24:00 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 616 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 09:24:00 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 09:24:01 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.microservices.twitter.to.kafka.services.runner.StreamRunner' available: expected single matching bean but found 2: mockKafkaStreamRunner,twitterKafkaStreamRunner
+2022-04-26 09:24:01 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
-2022-04-25 15:10:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 10000 milliseconds
-2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
-</head>
-<body>
-<h2>HTTP ERROR: 401</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    Unauthorized</pre>
-</body>
-</html>
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-26 09:24:01 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
-2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 20000 milliseconds
-2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Waiting for 20000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
-</head>
-<body>
-<h2>HTTP ERROR: 401</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    Unauthorized</pre>
-</body>
-</html>
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 40000 milliseconds
-2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Waiting for 40000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
-</head>
-<body>
-<h2>HTTP ERROR: 401</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    Unauthorized</pre>
-</body>
-</html>
+Description:
 
-2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 80000 milliseconds
-2022-04-25 15:11:41 [SpringContextShutdownHook] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream!
+Parameter 1 of constructor in com.microservices.twitter.to.kafka.services.TwitterToKafkaServiceApplication required a single bean, but 2 were found:
+	- mockKafkaStreamRunner: defined in file [C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes\com\microservices\twitter\to\kafka\services\runner\impl\MockKafkaStreamRunner.class]
+	- twitterKafkaStreamRunner: defined in file [C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes\com\microservices\twitter\to\kafka\services\runner\impl\TwitterKafkaStreamRunner.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2022-04-26 09:47:29 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 7836 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 09:47:29 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 09:47:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.105 seconds (JVM running for 3.424)
+2022-04-26 09:47:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 09:47:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 09:47:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 09:47:31 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering tweeter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:22:29 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 4668 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 10:22:29 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 10:22:30 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.444 seconds (JVM running for 3.613)
+2022-04-26 10:22:30 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 10:22:30 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:22:30 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 10:22:30 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering tweeter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:27:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 9688 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 10:27:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 10:27:38 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.199 seconds (JVM running for 3.365)
+2022-04-26 10:27:38 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 10:27:38 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:27:38 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 10:27:38 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:27:38 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:27:48 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:27:58 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:29:54 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 5332 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 10:29:54 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 10:29:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.095 seconds (JVM running for 3.241)
+2022-04-26 10:29:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 10:29:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:29:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 10:29:55 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:29:56 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:30:06 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:30:16 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2022-04-26 10:33:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 9960 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 10:33:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 10:33:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.071 seconds (JVM running for 3.447)
+2022-04-26 10:33:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 10:33:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:33:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 10:33:32 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 10:33:33 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer Lorem dolor purus -Java - Microservices - Spring - Kafka - Elasticsearch Fusce malesuada ipsum
+2022-04-26 10:33:43 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit elit Maecenas malesuada magna posuere -Java - Microservices - Spring - Kafka - Elasticsearch ipsum dolor lectus adipiscing
+2022-04-26 10:33:53 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor libero consectetuer malesuada purus dolor porttitor -Java - Microservices - Spring - Kafka - Elasticsearch massa malesuada consectetuer sit malesuada libero
+2022-04-26 10:34:03 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar massa lectus amet libero purus libero magna -Java - Microservices - Spring - Kafka - Elasticsearch elit lectus congue libero pulvinar lectus ultricies

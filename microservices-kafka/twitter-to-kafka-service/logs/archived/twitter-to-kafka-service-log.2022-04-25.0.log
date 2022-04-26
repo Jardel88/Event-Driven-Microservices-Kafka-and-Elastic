@@ -1,0 +1,67 @@
+2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 7360 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-25 11:34:46 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.062 seconds (JVM running for 3.288)
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-25 11:34:47 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 11780 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-25 11:39:19 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.198 seconds (JVM running for 3.383)
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 11:39:20 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-25 15:10:22 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 13968 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-25 15:10:22 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.113 seconds (JVM running for 3.289)
+2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-25 15:10:23 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-04-25 15:10:23 [main] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-25 15:10:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-04-25 15:10:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 10000 milliseconds
+2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-04-25 15:10:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 20000 milliseconds
+2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Waiting for 20000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-04-25 15:10:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 40000 milliseconds
+2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Waiting for 40000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-04-25 15:11:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 80000 milliseconds
+2022-04-25 15:11:41 [SpringContextShutdownHook] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream!
