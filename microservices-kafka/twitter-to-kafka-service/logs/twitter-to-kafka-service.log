@@ -66,3 +66,36 @@ Consider marking one of the beans as @Primary, updating the consumer to accept m
 2022-04-26 10:33:43 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit elit Maecenas malesuada magna posuere -Java - Microservices - Spring - Kafka - Elasticsearch ipsum dolor lectus adipiscing
 2022-04-26 10:33:53 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor libero consectetuer malesuada purus dolor porttitor -Java - Microservices - Spring - Kafka - Elasticsearch massa malesuada consectetuer sit malesuada libero
 2022-04-26 10:34:03 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar massa lectus amet libero purus libero magna -Java - Microservices - Spring - Kafka - Elasticsearch elit lectus congue libero pulvinar lectus ultricies
+2022-04-26 14:00:11 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 13436 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 14:00:11 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 14:00:12 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.twitter.to.kafka.services.config.TwitterToKafkaServiceConfigData' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-04-26 14:00:12 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-26 14:00:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.microservices.twitter.to.kafka.services.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.twitter.to.kafka.services.config.TwitterToKafkaServiceConfigData' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.twitter.to.kafka.services.config.TwitterToKafkaServiceConfigData' in your configuration.
+
+2022-04-26 14:01:00 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on GFT-0hLRDyfo7xL with PID 13008 (C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka\twitter-to-kafka-service\target\classes started by jldv in C:\Users\JLDV\eclipse-workspace\Event-Driven Microservices\microservices-kafka)
+2022-04-26 14:01:00 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-04-26 14:01:01 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.136 seconds (JVM running for 3.406)
+2022-04-26 14:01:01 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-04-26 14:01:01 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 14:01:01 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-04-26 14:01:01 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [-Java - Microservices - Spring - Kafka - Elasticsearch]
+2022-04-26 14:01:01 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed malesuada malesuada adipiscing ipsum Fusce consectetuer -Java - Microservices - Spring - Kafka - Elasticsearch porttitor sed elit dolor amet
+2022-04-26 14:01:11 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit congue posuere amet -Java - Microservices - Spring - Kafka - Elasticsearch ultricies sed
+2022-04-26 14:01:21 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor lectus dolor malesuada adipiscing magna -Java - Microservices - Spring - Kafka - Elasticsearch porttitor sed ipsum ultricies posuere
+2022-04-26 14:01:31 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed sit massa Lorem adipiscing pulvinar consectetuer -Java - Microservices - Spring - Kafka - Elasticsearch massa adipiscing ultricies ipsum sed malesuada
+2022-04-26 14:01:41 [pool-1-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar adipiscing ipsum malesuada -Java - Microservices - Spring - Kafka - Elasticsearch sit Lorem
